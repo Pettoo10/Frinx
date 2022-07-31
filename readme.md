@@ -1,7 +1,7 @@
 Prerequisites for windows:
 Python 3.6+
  - https://www.python.org/downloads/release/python-3105/
- Pip
+Pip
  - should be a part of Python installation
 Psycopg PostgreSQL adapter
 - pip install psycopg2
@@ -19,8 +19,6 @@ Navigate to main directory and run
 
 Now, the environemnt is ready.
 
-Run python main.py
-
 Go to localhost:5050
  - email: amin@admin.com
  - password: root
@@ -30,4 +28,5 @@ Create a new db > my_db
  - port: 5432
  - username: root
  - password: root
+ - run python main.py
  - navigate to Servers > my_db > Databases > Schemas > Tables and view data in final_table
