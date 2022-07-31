@@ -150,6 +150,8 @@ def create_id_list(input_data_temp):
 
 
 def get_id_based_on_name(input_data):
+    """Use comprehension list to filter input data and pair seachning name to the unique id. 
+    """
     searching_name = "Port-channel20"
     filtered_list = [tup for tup in input_data if searching_name in tup]
     for port_channel_id in filtered_list:
