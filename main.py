@@ -75,7 +75,7 @@ def get_specific_interface_and_name(*interfaces):
             converted_name_to_string = str(int_name)
             final_name = interface + converted_name_to_string
             name_list.append(final_name)
-    return all_content_data, name_list, final_name
+    return all_content_data, name_list
 
 
 def get_description_values(all_content_data, description = "description"):
@@ -176,7 +176,7 @@ def get_port_channel_id_list(all_content_data,  port_channel_id, configuration =
 
 def  main():
     #Get Interfaces which want to be parsed from JSON_DATA
-    all_content_data, name_list, final_name = get_specific_interface_and_name("Port-channel", "TenGigabitEthernet", "GigabitEthernet")
+    all_content_data, name_list = get_specific_interface_and_name("Port-channel", "TenGigabitEthernet", "GigabitEthernet")
 
     #Get all of the values which could be parsed from JSON_DATA
     description_parameter_list = get_description_values(all_content_data)
