@@ -1,6 +1,7 @@
 Prerequisites for windows:
 Python 3.6+
  - https://www.python.org/downloads/release/python-3105/
+ 
 Pip
  - should be a part of Python installation
 Psycopg PostgreSQL adapter
