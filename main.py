@@ -199,7 +199,7 @@ def  main():
     #Create a table and insert data to final_table in postreSQL database
     create_table_and_insert_data(data)
   
-    print("The data has been successfully stored to the PostgreSQLdatabase.")
+    print("The data has been successfully stored to the PostgreSQL database.")
 
 if __name__ == "__main__":
     main()
