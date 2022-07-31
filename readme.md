@@ -24,7 +24,7 @@ Go to localhost:5050
  - email: amin@admin.com
  - password: root
 
-Create a new db > my_db
+Create a new Server > my_db
  - host: pg_container 
  - port: 5432
  - username: root
